@@ -35,5 +35,7 @@ public:
 	int getFileFromHttp(CString pszUrl, char* pszFile);  // 파일 다운 받기
 	char* m_szFileName;
 
-	void UnzipProcess();
+	BOOL DoUnzipFile(CString sTargetDir, CString sUnzipDir);
+	int AllFileMove();
+	BOOL FileMove(short psnFileType, LPCTSTR lpszFileName, LPCSTR lpszBkDir);
 };

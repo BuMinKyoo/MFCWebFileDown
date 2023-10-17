@@ -33,10 +33,10 @@
     <ClInclude Include="pch.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="unzip.h">
+    <ClInclude Include="XUnzip.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="zip.h">
+    <ClInclude Include="XZip.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -50,10 +50,10 @@
     <ClCompile Include="pch.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="unzip.cpp">
+    <ClCompile Include="XUnzip.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="zip.cpp">
+    <ClCompile Include="XZip.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
